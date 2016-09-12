@@ -1,0 +1,94 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	position: relative;
+	border: 1px solid yellow;
+	margin: auto;
+	min-height: 100%;
+	padding-bottom: 35px;
+}
+
+#header, #nav, #content, #footer{
+	width: 75%;
+	min-width: 900px;
+  	margin-right: auto;
+  	margin-left: auto; 
+}
+
+/* ----------------------------- HEADER ----------------------------- */
+
+#header img {
+	width: auto;
+	height: auto;
+ 	display: block;
+ 	margin: 0 auto;
+ 	padding: 10px;
+}
+
+/* ----------------------------- NAV ----------------------------- */
+
+#nav {
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px; 
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+#nav li { 
+	display: inline-block;
+	padding: 10px;
+	margin: 0% 1%;
+	border-radius: 10px 10px 10px 10px;
+	border: 3px solid #25800e;
+	box-shadow: 0 2px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+#nav li:hover {
+	font-weight: bold;
+}
+
+/* ----------------------------- CONTENT ----------------------------- */
+
+#content {
+	border-radius: 10px 10px 10px 10px;
+	background-color: #ffffcc;
+}
+
+#content p {
+	padding: 5px 30px;
+	display: inline-block;
+}
+
+
+/* ----------------------------- FOOTER ----------------------------- */
+
+#footer	{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+#footer img{
+	display: block;
+}
+
+#footer table {
+    border-collapse: collapse;
+ 	margin: 0 auto;
+}
+
+#footer td {
+	padding-right: 10px;
+}
